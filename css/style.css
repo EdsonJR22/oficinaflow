@@ -1,5 +1,5 @@
 * {
-
+    box-sizing: border-box;
 }
 
 body {
@@ -8,9 +8,23 @@ body {
 }
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     width: 250px;
     min-height: 100vh;
     background-color: white;
+    padding: 24px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sidebar-footer {
+    margin-top: auto;
 }
 
 .conteudo {
