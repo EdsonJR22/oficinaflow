@@ -1,0 +1,19 @@
+* {
+
+}
+
+body {
+    margin: 0;
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.conteudo {
+    flex: 1;
+    background-color: #f5f5f9;
+}
