@@ -23,6 +23,19 @@ body {
     gap: 16px;
 }
 
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.menu .ativo {
+    background-color: #E5F2FD;
+    color: #055C77;
+}
+
 .sidebar-footer {
     margin-top: auto;
 }
