@@ -26,7 +26,7 @@ body {
 }
 
 .logo p {
-    margin: 0;
+    margin: 2px 0 0;
     font-size: 14px;
     color: #96A1B4;
 }
@@ -59,6 +59,7 @@ body {
 }
 
 .sidebar-footer a {
+    display: block;
     text-decoration: none;
     color: #333;
     padding: 16px 20px;
@@ -68,4 +69,25 @@ body {
 .conteudo {
     flex: 1;
     background-color: #f5f5f9;
+    padding: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+}
+
+.header-conteudo h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #030E23;
+}
+
+.header-conteudo p {
+    margin: 4px 0 0;
+    font-size: 18px;
+    color: #96A1B4;
 }
