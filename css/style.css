@@ -153,6 +153,11 @@ th, td {
     text-align: left;
 }
 
+td {
+    color: #232C3E;
+    font-size: 14px;
+}
+
 tbody tr {
     border-top: 1px solid #EAEEF3;
 }
@@ -165,3 +170,32 @@ th {
 thead {
     background-color: #F5F5F9;
 }
+
+.status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.status.concluido {
+    background-color: #D7F6E6;
+    color: #0B6736;
+}
+
+.status.andamento {
+    background-color: #DAECFD;
+    color: #00267C;
+}
+
+.status.peca {
+    background-color: #FFEED0;
+    color: #852C00;
+}
+
+.status.aprovacao {
+    background-color: #FEE3E4;
+    color: #620205;
+}
+
