@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -189,13 +191,47 @@ thead {
     color: #00267C;
 }
 
-.status.peca {
+.status.aguardando-peca {
     background-color: #FFEED0;
     color: #852C00;
 }
 
-.status.aprovacao {
+.status.aguardando-aprovacao {
     background-color: #FEE3E4;
     color: #620205;
 }
 
+.acoes-rapidas {
+    margin-top: 32px;
+    background-color: white;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.acoes {
+    display: flex;
+    gap: 24px;
+}
+
+.acao {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #001A41;
+}
+
+.acao.cliente {
+    background-color: #EDF6FE;
+}
+
+.acao.orcamento {
+    background-color: #EFFBF4;
+}
+
+.acao.ordem {
+    background-color: #F1F2FD;
+}   
