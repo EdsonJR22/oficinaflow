@@ -149,7 +149,7 @@ body {
 
 table {
     width: 100%;
-    min-width: 800px;
+    min-width: 950px;
     border-collapse: collapse;
 }
 
@@ -256,8 +256,7 @@ thead {
     color: #5A6884;
 }
 
-.tabela-container {
-    width: 100%;
+.tabela-conteiner {
     overflow-x: auto;
 }
 
