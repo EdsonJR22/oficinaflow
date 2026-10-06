@@ -70,6 +70,7 @@ body {
 
 .conteudo {
     flex: 1;
+    min-width: 0;
     background-color: #f5f5f9;
     padding: 40px;
 }
@@ -256,6 +257,7 @@ thead {
 }
 
 .tabela-container {
+    width: 100%;
     overflow-x: auto;
 }
 
