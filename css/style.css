@@ -148,6 +148,7 @@ body {
 
 table {
     width: 100%;
+    min-width: 800px;
     border-collapse: collapse;
 }
 
@@ -218,6 +219,7 @@ thead {
 
 .acoes {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -253,13 +255,17 @@ thead {
     color: #5A6884;
 }
 
+.tabela-container {
+    overflow-x: auto;
+}
+
 @media (max-width: 1200px) {
-    .secao-cards {
-        display: flex;
-        gap: 24px;
-    }
 
     .card {
+        flex: 1 1 calc(50% - 12px);
+    }
+
+    .acao {
         flex: 1 1 calc(50% - 12px);
     }
 
